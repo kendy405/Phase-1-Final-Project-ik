@@ -1,0 +1,16 @@
+{
+  "name": "phase-1-final-project-ik",
+  "version": "1.0.0",
+  "description": "A collection of various Recipes and users can ask questions and leave comments. # Irene Recipe Web App",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^11.0.0",
+    "server": "^1.0.38"
+  }
+}

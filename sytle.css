@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eba732;
+  }
+  
+  /* Style for the search container */
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #d26327;
+    padding: 3em 2.8;
+  }
+  
+  .search-container input {
+    padding: 75px;
+    border: 2px solid #15dc1c;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #3815e6;
+    font-weight: bold;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #0d0d0d;
+    color: rgb(217, 203, 203);
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the comment box */
+  .comment-box {
+    background-color: #a76060;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-box p {
+    font-size: 25px;
+    color: #333;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .comment-form button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the footer */
+  .page-footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    color: rgb(219, 24, 24);
+    padding: 10px 0;
+  }
+  

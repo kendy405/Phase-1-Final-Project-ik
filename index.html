@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irene Recipe</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .container {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-bottom: 250px;
+        }
+
+        .search-container input {
+            padding: 50px;
+            font-size: larger;
+
+
+        }
+
+        .search-container button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: rgb(8, 15, 10);
+            border: #c83d3d;
+        }
+        img {
+         display:grid
+
+        }
+        .details{
+            background-color: #f0e406;
+            position: relative;
+            display: grid;
+            text-align: center;
+            text-decoration: wavy;
+            text-decoration-color: aquamarine;
+            padding: 10px;
+        }
+        .details h2 {
+            font-size:medium
+        
+        }
+        #show-recipe{
+            font-size: xx-small;
+        }
+        .comment-box {
+            background-color: #d7e4ac;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .comment-box p {
+            font-size: 25px;
+            color: #3516cf;
+        }
+
+        .comment-form input,
+        .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            outline: none;
+            border: 1px solid #cb2020;
+        }
+
+        .comment-form button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: rgb(12, 12, 12);
+            border: none;
+        }
+
+        .page-footer {
+            text-align: bottom;
+            margin-top: 367px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="search-container">
+        <input
+            type="text"
+            placeholder="Type A Dish Name Here.."
+            id="user-inp"
+        />
+        <button id="search-btn">Search</button>
+    </div>
+    <div id="result"></div>
+
+    <!-- Comment section -->
+    <div class="comment-box">
+        <p>Leave a Comment</p>
+        <form class="comment-form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea rows="5" placeholder="Write Your Comment"></textarea>
+            <button type="submit">Post Comment</button>
+        </form>
+    </div>
+</div>
+
+<footer class="page-footer">
+    <p>
+        &copy;<span id="date"></span>
+        <span class="footer-logo">Irene Recipes</span>Built by
+        <a href="Irene Muthomi">Coding Student</a>
+    </p>
+</footer>
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
